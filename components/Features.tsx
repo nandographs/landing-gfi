@@ -2,23 +2,13 @@ import React from 'react';
 import MotionViewport from './MotionViewport';
 import { CardsParallax, iCardItem } from './ui/scroll-cards';
 
-// Import images
-import MEC01 from '../images/MEC-01.jpg';
-import MEC02 from '../images/MEC-02.jpg';
-import MEC03 from '../images/MEC-03.jpg';
-import MEC04 from '../images/MEC-04.jpg';
-import MEC05 from '../images/MEC-05.jpg';
-import MEC06 from '../images/MEC-06.jpg';
-import MEC07 from '../images/MEC-07.jpg';
-import MEC08 from '../images/MEC-08.jpg';
-
 // Data for the MEC Market Overview
 const cardItems: iCardItem[] = [
   {
     title: "Meios de Pagamento",
     description: "R$ 4,0 Tri (2024)",
     tag: "finance",
-    src: MEC01,
+    src: "/images/MEC-01.jpg",
     color: "#1a1a1a",
     textColor: "#ffffff",
   },
@@ -26,7 +16,7 @@ const cardItems: iCardItem[] = [
     title: "Marketing de Relacionamento",
     description: "US$ 41,4 bi (2024)",
     tag: "marketing",
-    src: MEC02,
+    src: "/images/MEC-02.jpg",
     color: "#262626",
     textColor: "#ffffff",
   },
@@ -34,7 +24,7 @@ const cardItems: iCardItem[] = [
     title: "E-commerce",
     description: "US$ 7,2 tri (2024)",
     tag: "sales",
-    src: MEC03,
+    src: "/images/MEC-03.jpg",
     color: "#1a1a1a",
     textColor: "#ffffff",
   },
@@ -42,7 +32,7 @@ const cardItems: iCardItem[] = [
     title: "Cooperativismo",
     description: "US$ 2,9 tri (2024)",
     tag: "coop",
-    src: MEC04,
+    src: "/images/MEC-04.jpg",
     color: "#262626",
     textColor: "#ffffff",
   },
@@ -50,7 +40,7 @@ const cardItems: iCardItem[] = [
     title: "Produtos Nanotecnologia",
     description: "US$ 84,1 bi (2024)",
     tag: "tech",
-    src: MEC05,
+    src: "/images/MEC-05.jpg",
     color: "#1a1a1a",
     textColor: "#ffffff",
   },
@@ -58,7 +48,7 @@ const cardItems: iCardItem[] = [
     title: "Formação Continuada",
     description: "US$ 40,2 bi (2024)",
     tag: "education",
-    src: MEC06,
+    src: "/images/MEC-06.jpg",
     color: "#262626",
     textColor: "#ffffff",
   },
@@ -66,7 +56,7 @@ const cardItems: iCardItem[] = [
     title: "SCP",
     description: "US$ 38,6 bi (2024) - Sociedade em Conta de Participação",
     tag: "business",
-    src: MEC07,
+    src: "/images/MEC-07.jpg",
     color: "#1a1a1a",
     textColor: "#ffffff",
   },
@@ -74,7 +64,7 @@ const cardItems: iCardItem[] = [
     title: "Venda Direta",
     description: "US$ 290,5 bi (2024)",
     tag: "direct-sales",
-    src: MEC08,
+    src: "/images/MEC-08.jpg",
     color: "#262626",
     textColor: "#ffffff",
   }

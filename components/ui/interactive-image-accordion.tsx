@@ -1,44 +1,36 @@
 import React, { useState } from 'react';
 
-// --- Imports for GFI Images ---
-import img1 from '../../images/PRODUCTS-GFI-1.jpg';
-import img2 from '../../images/PRODUCTS-GFI-2.jpg';
-import img3 from '../../images/PRODUCTS-GFI-3.jpg';
-import img4 from '../../images/PRODUCTS-GFI-4.jpg';
-import img5 from '../../images/PRODUCTS-GFI-5.jpg';
-import img6 from '../../images/PRODUCTS-GFI-6.jpg';
-
 // --- Data for the image accordion for GFI Context ---
 const accordionItems = [
     {
         id: 1,
         title: 'Nutrição',
-        imageUrl: img1,
+        imageUrl: '/images/PRODUCTS-GFI-1.jpg',
     },
     {
         id: 2,
         title: 'Água',
-        imageUrl: img2,
+        imageUrl: '/images/PRODUCTS-GFI-2.jpg',
     },
     {
         id: 3,
         title: 'Terapêutica',
-        imageUrl: img3,
+        imageUrl: '/images/PRODUCTS-GFI-3.jpg',
     },
     {
         id: 4,
         title: 'Perfumes',
-        imageUrl: img4,
+        imageUrl: '/images/PRODUCTS-GFI-4.jpg',
     },
     {
         id: 5,
         title: 'Limpeza',
-        imageUrl: img5,
+        imageUrl: '/images/PRODUCTS-GFI-5.jpg',
     },
     {
         id: 6,
         title: 'Cosméticos',
-        imageUrl: img6,
+        imageUrl: '/images/PRODUCTS-GFI-6.jpg',
     },
 ];
 
