@@ -6,7 +6,7 @@ import { BlurText } from './ui/blur-text';
 
 const Hero: React.FC = () => {
   return (
-    <section className="relative pt-20 pb-20 lg:pt-32 lg:pb-32 overflow-hidden">
+    <section className="relative pt-32 pb-20 lg:pt-32 lg:pb-32 overflow-hidden">
       {/* Background Gradient */}
       <motion.div
         initial={{ opacity: 0, scale: 0.8 }}
