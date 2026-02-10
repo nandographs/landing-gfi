@@ -47,7 +47,7 @@ const AccordionItem: React.FC<AccordionItemProps> = ({ item, isActive, onMouseEn
             className={`
         relative h-[450px] rounded-2xl overflow-hidden cursor-pointer
         transition-all duration-700 ease-in-out border border-white/10
-        ${isActive ? 'w-[400px] shadow-[0_0_30px_rgba(91,222,64,0.2)]' : 'w-[60px] opacity-60 hover:opacity-100'}
+        ${isActive ? 'flex-[1_1_400px] max-w-[400px] shadow-[0_0_30px_rgba(91,222,64,0.2)]' : 'flex-[0_0_60px] max-w-[60px] opacity-60 hover:opacity-100'}
       `}
             onMouseEnter={onMouseEnter}
         >
@@ -112,8 +112,8 @@ export function LandingAccordionItem() {
                     </div>
 
                     {/* Right Side: Image Accordion */}
-                    <div className="w-full lg:w-1/2">
-                        <div className="flex flex-row items-center justify-center gap-4 p-4 min-h-[500px]">
+                    <div className="w-full lg:w-1/2 overflow-x-auto">
+                        <div className="flex flex-row items-center justify-center gap-4 p-4 min-h-[500px] min-w-max">
                             {accordionItems.map((item, index) => (
                                 <AccordionItem
                                     key={item.id}
