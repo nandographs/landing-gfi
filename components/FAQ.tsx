@@ -14,10 +14,6 @@ const faqData: FAQItem[] = [
     answer: "Não. Esse é o grande diferencial. O sistema da GFI opera de forma profissional todos os dias do ano. Você não precisa se preocupar com logística, contratações ou vendas. A GFI cuida de toda a execução para que você apenas colha os resultados como sócio."
   },
   {
-    question: "Qual é o papel do Fernando Santos?",
-    answer: "O Fernando é o idealizador e o principal indicador do projeto. Ele personifica o sucesso do modelo, mas a operação é executada pela estrutura corporativa da GFI, que possui sistemas validados e equipe especializada para garantir que o negócio funcione de forma independente."
-  },
-  {
     question: "Como funciona a distribuição de lucros?",
     answer: "Os resultados são distribuídos aos sócios conforme o desempenho da operação, seguindo estritamente o que foi definido no contrato SCP. É uma participação real nos lucros gerados pelo ecossistema de vendas da GFI."
   },
