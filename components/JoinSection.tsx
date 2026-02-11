@@ -12,7 +12,7 @@ const JOIN_TIERS: TierData[] = [
         description: "Inicie agora sem custos. Permite comprar os produtos da GFI com 20% de desconto exclusivo para membros cadastrados.",
     },
     {
-        title: "DDI - Distribuidor Independente",
+        title: "DDI - Distribuidor Direto Independente",
         image: "/images/DDI.jpg",
         category: "Negócio",
         price: "$30 / Adesão",

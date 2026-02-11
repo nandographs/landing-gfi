@@ -64,8 +64,8 @@ const SCPSystem: React.FC = () => {
                     title="Seja um Sócio SCP GFI"
                     description="Ganhe como sócio, sem o estresse do Operacional."
                     items={checklistItems}
-                    videoThumbnailUrl="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?q=80&w=2032&auto=format&fit=crop"
-                    videoUrl="https://www.youtube.com/embed/dQw4w9WgXcQ?si=XZeX7X7X7X7X7X7X" // Placeholder video
+                    videoThumbnailUrl="/images/thumbnail.jpg"
+                    videoUrl="https://www.youtube.com/embed/NI3tRrfQbIQ"
                     className="bg-black border border-white/10 shadow-2xl text-white"
                 />
             </div>
