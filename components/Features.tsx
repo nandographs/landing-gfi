@@ -1,48 +1,48 @@
 import React from 'react';
 import MotionViewport from './MotionViewport';
-import { ImageAutoSlider, SlideItem } from './ui/image-auto-slider';
+import { Carousel } from './ui/carousel';
 
 // Data for the MEC Market Overview
-const mecItems: SlideItem[] = [
+const mecSlides = [
   {
     title: "Meios de Pagamento",
-    description: "R$ 4,0 Tri (2024)",
-    image: "/images/MEC-01.jpg",
+    button: "R$ 4,0 Tri (2024)",
+    src: "/images/MEC-01.jpg",
   },
   {
     title: "Marketing de Relacionamento",
-    description: "US$ 41,4 bi (2024)",
-    image: "/images/MEC-02.jpg",
+    button: "US$ 41,4 bi (2024)",
+    src: "/images/MEC-02.jpg",
   },
   {
     title: "E-commerce",
-    description: "US$ 7,2 tri (2024)",
-    image: "/images/MEC-03.jpg",
+    button: "US$ 7,2 tri (2024)",
+    src: "/images/MEC-03.jpg",
   },
   {
     title: "Cooperativismo",
-    description: "US$ 2,9 tri (2024)",
-    image: "/images/MEC-04.jpg",
+    button: "US$ 2,9 tri (2024)",
+    src: "/images/MEC-04.jpg",
   },
   {
     title: "Produtos Nanotecnologia",
-    description: "US$ 84,1 bi (2024)",
-    image: "/images/MEC-05.jpg",
+    button: "US$ 84,1 bi (2024)",
+    src: "/images/MEC-05.jpg",
   },
   {
     title: "Formação Continuada",
-    description: "US$ 40,2 bi (2024)",
-    image: "/images/MEC-06.jpg",
+    button: "US$ 40,2 bi (2024)",
+    src: "/images/MEC-06.jpg",
   },
   {
     title: "SCP",
-    description: "US$ 38,6 bi (2024)",
-    image: "/images/MEC-07.jpg",
+    button: "US$ 38,6 bi (2024)",
+    src: "/images/MEC-07.jpg",
   },
   {
     title: "Venda Direta",
-    description: "US$ 290,5 bi (2024)",
-    image: "/images/MEC-08.jpg",
+    button: "US$ 290,5 bi (2024)",
+    src: "/images/MEC-08.jpg",
   },
 ];
 
@@ -66,8 +66,8 @@ const Features: React.FC = () => {
           </p>
         </MotionViewport>
 
-        {/* Auto Slider */}
-        <ImageAutoSlider items={mecItems} />
+        {/* Carousel */}
+        <Carousel slides={mecSlides} />
       </div>
     </section>
   );

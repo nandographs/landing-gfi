@@ -1,6 +1,6 @@
 {
-    "name": "Fernando | Sócios SCP GFI",
-    "short_name": "GFI Sócios",
+    "name": "Fernando | Sócios SCP",
+    "short_name": "Fernando SCP",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
@@ -14,6 +14,6 @@
         }
     ],
     "theme_color": "#5bde40",
-    "background_color": "#000000",
+    "background_color": "#0a0a0a",
     "display": "standalone"
 }

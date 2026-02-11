@@ -9,17 +9,17 @@
     display: block;
     position: relative;
   }
-  
+
   [data-rmiz-ghost] {
     pointer-events: none;
     position: absolute;
   }
-  
+
   [data-rmiz-btn-zoom],
   [data-rmiz-btn-unzoom] {
     display: none;
   }
-  
+
   [data-rmiz-modal][open] {
     position: fixed;
     inset: 0;
@@ -33,25 +33,26 @@
     background: transparent;
     border: none;
   }
-  
+
   [data-rmiz-modal-overlay] {
     position: absolute;
     inset: 0;
     transition: background-color 0.3s;
   }
-  
+
   [data-rmiz-modal-img] {
     position: absolute;
     transition: transform 0.3s;
     transform-origin: 0 0;
   }
-  
+
   [data-rmiz-content="found"] img {
     cursor: zoom-in;
   }
 }
 
 @media (prefers-reduced-motion: reduce) {
+
   [data-rmiz-modal-overlay],
   [data-rmiz-modal-img] {
     transition-duration: 0.01ms !important;

@@ -65,29 +65,13 @@ const EarningsSection: React.FC = () => {
                                 animate={{ opacity: 1, x: 0 }}
                                 exit={{ opacity: 0, x: -20 }}
                                 transition={{ duration: 0.5 }}
-                                className="w-full h-full relative"
+                                className="w-full h-full"
                             >
                                 <ImageZoom
                                     src={EARNINGS_DATA[currentIndex].image}
                                     alt={EARNINGS_DATA[currentIndex].title}
                                     className="w-full h-full object-cover"
                                 />
-                                
-                                {/* Info Overlay - Optional but helpful for "Ways to Earn" */}
-                                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex flex-col justify-end p-8 md:p-12">
-                                    <motion.div
-                                        initial={{ opacity: 0, y: 20 }}
-                                        animate={{ opacity: 1, y: 0 }}
-                                        transition={{ delay: 0.2 }}
-                                    >
-                                        <h3 className="text-2xl md:text-3xl font-bold text-white mb-2">
-                                            {EARNINGS_DATA[currentIndex].title}
-                                        </h3>
-                                        <p className="text-neutral-300 text-sm md:text-base max-w-xl">
-                                            {EARNINGS_DATA[currentIndex].description}
-                                        </p>
-                                    </motion.div>
-                                </div>
                             </motion.div>
                         </AnimatePresence>
 
@@ -133,4 +117,3 @@ const EarningsSection: React.FC = () => {
 };
 
 export default EarningsSection;
-

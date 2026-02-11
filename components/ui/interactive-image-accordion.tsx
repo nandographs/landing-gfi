@@ -1,37 +1,37 @@
 import React from 'react';
-import { ImageAutoSlider, SlideItem } from './image-auto-slider';
+import { Carousel } from './carousel';
 
 // --- Data for the products carousel ---
-const productItems: SlideItem[] = [
+const productSlides = [
     {
         title: 'Nutrição',
-        description: 'Produtos de nutrição',
-        image: '/images/PRODUCTS-GFI-1.jpg',
+        button: 'Produtos de nutrição',
+        src: '/images/PRODUCTS-GFI-1.jpg',
     },
     {
         title: 'Água',
-        description: 'Água de qualidade',
-        image: '/images/PRODUCTS-GFI-2.jpg',
+        button: 'Água de qualidade',
+        src: '/images/PRODUCTS-GFI-2.jpg',
     },
     {
         title: 'Terapêutica',
-        description: 'Produtos terapêuticos',
-        image: '/images/PRODUCTS-GFI-3.jpg',
+        button: 'Produtos terapêuticos',
+        src: '/images/PRODUCTS-GFI-3.jpg',
     },
     {
         title: 'Perfumes',
-        description: 'Fragrâncias exclusivas',
-        image: '/images/PRODUCTS-GFI-4.jpg',
+        button: 'Fragrâncias exclusivas',
+        src: '/images/PRODUCTS-GFI-4.jpg',
     },
     {
         title: 'Limpeza',
-        description: 'Produtos de limpeza',
-        image: '/images/PRODUCTS-GFI-5.jpg',
+        button: 'Produtos de limpeza',
+        src: '/images/PRODUCTS-GFI-5.jpg',
     },
     {
         title: 'Cosméticos',
-        description: 'Cosméticos premium',
-        image: '/images/PRODUCTS-GFI-6.jpg',
+        button: 'Cosméticos premium',
+        src: '/images/PRODUCTS-GFI-6.jpg',
     },
 ];
 
@@ -55,7 +55,7 @@ export function LandingAccordionItem() {
                     </div>
 
                     {/* Carousel */}
-                    <ImageAutoSlider items={productItems} />
+                    <Carousel slides={productSlides} />
                 </div>
             </div>
         </div>
