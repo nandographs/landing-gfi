@@ -20,7 +20,7 @@ const Mentor: React.FC = () => {
             <div className="absolute -top-6 -left-6 w-32 h-32 bg-white/5 blur-2xl rounded-full"></div>
           </div>
 
-          <div className="w-full md:w-1/2">
+          <div className="w-full md:w-1/2 text-center md:text-left">
             <h4 className="text-brand-500 font-bold uppercase tracking-widest text-sm mb-4">O Sócio Ostensivo</h4>
             <h2 className="text-5xl lg:text-7xl font-bold tracking-tight text-white mb-6 leading-[1.1]">
               Vamos crescer <br />
