@@ -117,7 +117,7 @@ export const GFIPaySection = React.forwardRef<HTMLElement, GFIPayProps>(
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     {/* Header */}
                     <motion.div className="text-center mb-16" variants={itemVariants}>
-                        <h2 className="text-6xl lg:text-8xl font-bold tracking-tight text-white mb-6 leading-[1.1]">
+                        <h2 className="text-8xl lg:text-[10rem] font-bold tracking-tight text-white mb-6 leading-[1.1]">
                             <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-300 via-brand-500 to-brand-600 font-black">
                                 GFI
                             </span>
