@@ -117,14 +117,13 @@ export const GFIPaySection = React.forwardRef<HTMLElement, GFIPayProps>(
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     {/* Header */}
                     <motion.div className="text-center mb-16" variants={itemVariants}>
-                        <h2 className="text-8xl lg:text-[10rem] font-bold tracking-tight text-white mb-6 leading-[1.1]">
-                            <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-300 via-brand-500 to-brand-600 font-black">
-                                GFI
-                            </span>
-                            <span className="text-white font-light" style={{ fontFamily: "'Playball', cursive" }}>
-                                pay
-                            </span>
-                        </h2>
+                        <div className="flex justify-center mb-6">
+                            <img
+                                src="/images/logo-gfipay.png"
+                                alt="GFI Pay"
+                                className="h-40 lg:h-56 w-auto"
+                            />
+                        </div>
                         <p className="text-neutral-400 max-w-2xl mx-auto text-lg lg:text-xl">
                             {subtitle}
                         </p>
