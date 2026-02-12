@@ -8,7 +8,7 @@ const SCPSystem: React.FC = () => {
         {
             id: 1,
             text: "Capital investido com propósito;",
-            helperText: "O Sócio Participante realiza o investimento na GFI."
+            helperText: "O Sócio Executivo realiza o investimento na GFI."
         },
         {
             id: 2,

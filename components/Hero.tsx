@@ -138,7 +138,7 @@ const Hero: React.FC = () => {
                     <p className="text-white font-bold text-xl tracking-tight mb-0.5 drop-shadow-2xl">Fernando Santos</p>
                     <div className="flex items-center justify-center gap-1.5">
                       <span className="w-1.5 h-1.5 bg-brand-500 rounded-full animate-pulse shadow-[0_0_8px_#5bde40]"></span>
-                      <p className="text-brand-400 text-[8px] font-black uppercase tracking-[0.2em] drop-shadow-md">Sócio Participante</p>
+                      <p className="text-brand-400 text-[8px] font-black uppercase tracking-[0.2em] drop-shadow-md">Sócio Executivo</p>
                     </div>
                   </motion.div>
                 </div>

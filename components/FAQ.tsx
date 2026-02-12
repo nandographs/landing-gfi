@@ -7,7 +7,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 const faqData: FAQItem[] = [
   {
     question: "O que é o modelo SCP da GFI?",
-    answer: "A Sociedade em Conta de Participação (SCP) é um modelo jurídico sólido previsto no Código Civil. Nele, a GFI atua como Sócio Participante, sendo 100% responsável pela operação, riscos e gestão, enquanto você entra como Sócio Participante, aportando capital e participando dos lucros de forma direta e sem burocracia."
+    answer: "A Sociedade em Conta de Participação (SCP) é um modelo jurídico sólido previsto no Código Civil. Nele, a GFI atua como Sócio Executivo, sendo 100% responsável pela operação, riscos e gestão, enquanto você entra como Sócio Participante, aportando capital e participando dos lucros de forma direta e sem burocracia."
   },
   {
     question: "Preciso trabalhar ou gerir o negócio?",

@@ -21,7 +21,7 @@ const Mentor: React.FC = () => {
           </div>
 
           <div className="w-full md:w-1/2 text-center md:text-left">
-            <h4 className="text-brand-500 font-bold uppercase tracking-widest text-sm mb-4">O Sócio Participante</h4>
+            <h4 className="text-brand-500 font-bold uppercase tracking-widest text-sm mb-4">O Sócio Executivo</h4>
             <h2 className="text-5xl lg:text-7xl font-bold tracking-tight text-white mb-6 leading-[1.1]">
               Vamos crescer <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-300 via-brand-500 to-brand-600">
